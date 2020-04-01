@@ -9,42 +9,42 @@ Programming Projects
 ---
 ### [Mortgage Calculator | CSCI 301](project1)
 
-![Project 1 Thumbnail Name](images/mortgagecover.png)
+![Format for the GUI of the Mortgage Calculator that takes input and gives output](images/mortgagecover.png)
 
 ---
 ### [Book Refrencing | CSCI 325](project1)
 
-![Project 3 Thumbnail Name](images/bookreferencecover.png)
+![Image of the Output with the specific Test Cases](images/bookreferencecover.png)
 
 ---
 ### [Arithmetic Logic Unit | CSCI 330](project1)
 
-![Project 2 Thumbnail Name](images/alucover.png)
+![Diagram of the Arithmetic Logic Unit with its inputs and output](images/alucover.png)
 
 ---
 ### [Client-Server Communication | CSCI 332](project1)
 
-![Project 4 Thumbnail Name](images/client-server.png)
+![Normal Client and Server Communication](images/client-server.png)
 
 ---
 
 Ethics Papers
 -------------
 
-### [Paper 1 Title](/pdf/sample_presentation.pdf)
+### [Ad Blockers and the Effect of Ads On User Experience](/Ethics Papers/EthicsCSCI235.pdf)
 
--   **Class:**  
--   **Grade:**
+-   **Class:**  CSCI 235
+-   **Grade:**  98
 
-### [Paper 2 Title](/pdf/sample_presentation.pdf)
+### [Confidentiality of Information in Cyber Security](/Ethics Papers/EthicsCSCI325.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class:**  CSCI 325
+-   **Grade:**  83
 
-### [Paper 3 Title](/pdf/sample_presentation.pdf)
+### [Fair Use with Source Code from GitHub, Stack Overflow, and Other Sites](/Ethics Papers/EthicsCSCI301.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class:**  CSCI 301
+-   **Grade:**  90
 
 ---
 
