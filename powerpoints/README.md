@@ -6,3 +6,5 @@
   2. Muxes Presentation
       1. CSCI Class: CSCI 330 Computer Architecture
       2. Grade Received: 100
+      
+- There are two formats for each presentation the orignial power point and a github-friendly pdf document of the slides
