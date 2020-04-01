@@ -62,7 +62,7 @@ Presentations
 - **Class:** CSCI 330 Computer Architecture
 - **Grade:** 100
 
-Recording <a href="https://youtu.be/RlPTJElZgoQ">
+Recording <a href="https://youtu.be/RlPTJElZgoQ"> Youtube </a>
 ---
 
 <p style="font-size:11px">Page template forked from <a href="https://github.com/csu-cs/csci-portfolio">CSU-CS</a></p>
