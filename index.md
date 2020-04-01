@@ -31,17 +31,16 @@ Programming Projects
 Ethics Papers
 -------------
 
-### [Ad Blockers and the Effect of Ads On User Experience](/Ethics Papers/EthicsCSCI235.pdf)
-
+### <a href="https://github.com/trevorabel/trevorabel.github.io/tree/master/Ethics%20Papers"> Ad Blockers and the Effect of Ads On User Experience </a>
 -   **Class:**  CSCI 235
 -   **Grade:**  98
 
-### [Confidentiality of Information in Cyber Security](/Ethics Papers/EthicsCSCI325.pdf)
+### <a href="https://github.com/trevorabel/trevorabel.github.io/tree/master/Ethics%20Papers"> Confidentiality of Information in Cyber Security </a>
 
 -   **Class:**  CSCI 325
 -   **Grade:**  83
 
-### [Fair Use with Source Code from GitHub, Stack Overflow, and Other Sites](/Ethics Papers/EthicsCSCI301.pdf)
+### <a href="https://github.com/trevorabel/trevorabel.github.io/tree/master/Ethics%20Papers"> Fair Use with Source Code from GitHub, Stack Overflow, and Other Sites </a>
 
 -   **Class:**  CSCI 301
 -   **Grade:**  90
