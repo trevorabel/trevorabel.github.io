@@ -51,13 +51,13 @@ Ethics Papers
 Presentations
 -------------
 
-### [Cicada 3301](/powerpoints/Cicada3301.pptx)
+### [Cicada 3301](/powerpoints/Cicada3301.pdf)
 
 - **Class:** CSCI 405 Introduction to Cyber Security
 - **Grade:** 100
 
 
-### [Muxes](/powerpoints/muxes.pptx)
+### [Muxes](/powerpoints/muxes.pdf)
 
 - **Class:** CSCI 330 Computer Architecture
 - **Grade:** 100
