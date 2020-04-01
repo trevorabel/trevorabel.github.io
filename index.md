@@ -51,13 +51,13 @@ Ethics Papers
 Presentations
 -------------
 
-### <a href="https://github.com/trevorabel/trevorabel.github.io/tree/master/powerpoints"> [Cicada 3301] </a>
+### <a href="https://github.com/trevorabel/trevorabel.github.io/tree/master/powerpoints"> Cicada 3301 </a>
 
 - **Class:** CSCI 405 Introduction to Cyber Security
 - **Grade:** 100
 
 
-### <a href="https://github.com/trevorabel/trevorabel.github.io/tree/master/powerpoints"> [Muxes] </a>
+### <a href="https://github.com/trevorabel/trevorabel.github.io/tree/master/powerpoints"> Muxes </a>
 
 - **Class:** CSCI 330 Computer Architecture
 - **Grade:** 100
