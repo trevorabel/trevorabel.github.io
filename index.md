@@ -7,24 +7,24 @@ Programming Projects
 *For access to my private project repositories, please [email me](mailto:taabel@csustudent.net?subject=GitHub%20Access) with the subject line, GitHub Access.
 
 ---
-### [Project 1 Title | CSCI 301](project1)
+### [Mortgage Calculator | CSCI 301](project1)
 
-![Project 1 Thumbnail Name](images/dummy_thumbnail.jpg)
-
----
-### [Project 2 Title | CSCI 315](project1)
-
-![Project 2 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 1 Thumbnail Name](images/mortgagecover.png)
 
 ---
 ### [Book Refrencing | CSCI 325](project1)
 
-![Project 3 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 3 Thumbnail Name](images/bookreferencecover.png)
+
+---
+### [Arithmetic Logic Unit | CSCI 330](project1)
+
+![Project 2 Thumbnail Name](images/alucover.png)
 
 ---
 ### [Client-Server Communication | CSCI 332](project1)
 
-![Project 4 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Project 4 Thumbnail Name](images/client-server.png)
 
 ---
 
