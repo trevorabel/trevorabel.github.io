@@ -51,17 +51,18 @@ Ethics Papers
 Presentations
 -------------
 
-### [Presentation 1 Title](/pdf/sample_presentation.pdf)
+### [Cicada 3301](/pdf/sample_presentation.pdf)
 
-- **Class:** 
-- **Grade:**
+- **Class:** CSCI 405 Introduction to Cyber Security
+- **Grade:** 100
 
 
-### [Presentation 2 Title](/pdf/sample_presentation.pdf)
+### [Muxes](/pdf/sample_presentation.pdf)
 
-- **Class:** 
-- **Grade:**
+- **Class:** CSCI 330 Computer Architecture
+- **Grade:** 100
 
+Recording <a href="https://youtu.be/RlPTJElZgoQ">
 ---
 
 <p style="font-size:11px">Page template forked from <a href="https://github.com/csu-cs/csci-portfolio">CSU-CS</a></p>
