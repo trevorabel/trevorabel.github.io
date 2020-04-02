@@ -11,7 +11,7 @@ Arithmetic Logic Unit
 
 ## Project description
 
-The Mortgage Calculator is a GUI based program that runs off of the codepen.io website. This program utilizes three coding languages HTML, CSS, and JS. The HTML provides the structure for the website based GUI telling it where each box, line of text, and button goes. The CSS provides the formatting of the text boxes, padding, text font, text location, and text color. The JS is the section of the code that handles all of the calculatiions with the given information to calculate the expected monthly mortgage payment based on the inital loan amount, the amount of time the loan is held for, and finally the interest rate of the loan.
+The Arithmetic Logic Unit (ALU) is a part of a Single Cycle Proccessor that we designed in Computer Architecture. The purpose of the ALU is to take two inputs and be able to determine if they are the same. It will check over all 64 bits or binary numbers as part of its evaluation. If the ALU determines that the numbers are the same it will throw a flag so that the Single Cycle Proccessor knows that it has two inputs that are the same. If they are not the same then it will just pass along the output of the two inputs and not raise a flag.
 
 ## How to compiles / run the program
 
@@ -25,24 +25,23 @@ If this does not work please verfiy that you have Icarus Verilog downloaded and 
 
 ## UI Design
 
-The UI was design to be extremely simple so that it was easy to use and user friendly (figure 1). At its core the UI includes text boxes to input the three neccesary values. After entering the loan amout, the amount of time it is held for, and the interest rate all that you have to do is press estimate monthly payment. After pressing the estimate button it will proccess the information entered and plug it into the JS functions and return your estimated monthly payment in red text (figure 4).
+The UI for this program is the terminal and was not changed in any way for this program. The terminal along with Icarus Verilog is what allows us to run the make file command to compile and run the ALU.v file to produce output to make sure that it works properly.
 
 ![screenshot](images/alucover.png)
 - Fig 1. This is the shape of a Arithmetic Logic Unit in a proccessor diagram it displays the inputs that it takes and the output that it gives.
 
-![screenshot](images/mortgageHTML.png)
-- Fig 2. The HTML Code that provides the structure of the GUI for the Website so that it displays everything properly.
+![screenshot](images/alucode.png)
+- Fig 2. The Arithmetic Logic Unit code that makes the ALU function it includes an equals, 64-bitmux, ripple-carry adder, and a 64-bit and.
 
-![screenshot](images/mortgageCSS.png)
-- Fig 3. The CSS Code that gives the style of the text, text boxes, padding, and give the final output of estimated monthly payment the red text rather than the black standard text.
+![screenshot](images/alutestcases.png)
+- Fig 3. These are the some of the test cases for testing the output of the alu by setting the values either equal or not equal to each other to see if the ALU would trigger itself and raise the flag for when the two inputs are equal.
 
-![screenshot](images/mortgagecalcoutput.png)
-- Fig 4. Example of how the program runs given the Loan ammount is 100,000 dollars, the borrowing time is 10 years, and the interest rate is 5%. This also demonstrates the fixed red text for the output as mentioned in the CSS screenshot above.
+![screenshot](images/aluoutput.png)
+- Fig 4. This shows the output of the Arithmetic Logic Unit when it runs the supplied test cases. The results are displayed in a binary format to show what a computer would receive and what it would use to function.
 
 ## 3. Additional Considerations
 
-When downloading this repository please download from the releases. The release contains the orignial executable file that shows what the output is supposed to be incase you want to tweak the file.
-Running the makefile command will be how to generate the output when looking at the files. If the make command is not working double check that you have Icarus verilog on your computer and it is up to date.
+When opening the files in Visual Studio Code it will not automatically recognize and color the verilog code. So to help and make it easier to read a great extenstion to install is __**Verilog HDL/SystemVerilog by mshr-h**__ this is a great extenstion that will also recognize errors if any exist like accidentally deleting a semicolon.
 
 For more details see [Arithmetic Logic Unit Private Repository](https://github.com/trevorabel/csci330-alu).
 
