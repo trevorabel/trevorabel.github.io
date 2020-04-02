@@ -31,14 +31,14 @@ The UI for this program is the users command terminal on a Ubuntu OS. This code 
 ![screenshot](images/client-server.png)
 - Fig 1. The graphic illustrates how a server-client interaction takes place.
 
-![screenshot](images/mortgageHTML.png)
-- Fig 2. The HTML Code that provides the structure of the GUI for the Website so that it displays everything properly.
+![screenshot](images/serverside.png)
+- Fig 2. This is the server side code with an example of how it recognizes keywords through character arrays it has predefined.
 
-![screenshot](images/mortgageCSS.png)
-- Fig 3. The CSS Code that gives the style of the text, text boxes, padding, and give the final output of estimated monthly payment the red text rather than the black standard text.
+![screenshot](images/clientside.png)
+- Fig 3. This is the client side code and shows where it prompts for you to type and then the section for sending out the word and waiting to receive a response.
 
-![screenshot](images/mortgagecalcoutput.png)
-- Fig 4. Example of how the program runs given the Loan ammount is 100,000 dollars, the borrowing time is 10 years, and the interest rate is 5%. This also demonstrates the fixed red text for the output as mentioned in the CSS screenshot above.
+![screenshot](images/server-client-run.png)
+- Fig 4. This shows the Server and Client on one computer screen being run and showing how the client side recieves the messages from the server side
 
 ## 3. Additional Considerations
 
