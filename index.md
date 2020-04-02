@@ -22,7 +22,7 @@ Programming Projects
 ![Diagram of the Arithmetic Logic Unit with its inputs and output](images/alucover.png)
 
 ---
-### [Client-Server Communication | CSCI 332](project1)
+### [Client-Server Communication | CSCI 332](client-server.md)
 
 ![Normal Client and Server Communication](images/client-server.png)
 
