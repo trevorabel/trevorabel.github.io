@@ -6,7 +6,7 @@ Arithmetic Logic Unit
 -   **Class:** CSCI 330 Computer Architecture
 -   **Grade:** 100
 -   **Language(s):** Verilog
--   **Source Code Repository:** [Private Github Repository (needs collaborator access)](https://github.com/trevorabel/csci330-alu)  
+-   **Source Code Repository:** [Arthmetic Logic Unit Private Github Repository (needs collaborator access)](https://github.com/trevorabel/csci330-alu)  
     (Please [email me](mailto:taabel@csustudent.net?subject=GitHub%20Access) to request access.)
 
 ## Project description
