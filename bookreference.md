@@ -11,7 +11,7 @@ Book Reference
 
 ## Project description
 
-The Book Reference program was a java program that I created in Object-Oriented Programming and its purpose is to take preset input like in demo. Using that information the demo then calls the funcitons in QtimeNote which uses the Qtime functions and can pull references to books, compare to books to see if they are the same reference, get user notes, get a date, and more.
+The Book Reference program was a java program that I created in Object-Oriented Programming and its purpose is to take preset input like in demo. Using that information the demo then calls the funcitons in QtimeNote which uses the Qtime functions and can pull references to notes about the book including making new notes, getting all notes, setting notes, updating notes, and removing notes.
 
 ## How to compiles / run the program
 
@@ -24,10 +24,10 @@ Use the built in run feature in Netbeans to run this program.
 The UI for this program is just the simple output frame from NetBeans that displays different references to a type of book after it is entered into the demo file. To test other books you must add the information into the demo page of the program just like the other book examples at the top of main.
 
 ![screenshot](images/bookreferencecover.png)
-Fig 1. The launch screen
+Fig 1. This is the example demo page that has two stored inputs and will test against the functions to get the ouput at the bottom.
 
 ![screenshot](images/qtime.png)
-Fig 2. This is the code that pulls the book references.
+Fig 2. This is the code that sets, pulls, updates, and removes notes.
 
 ![screenshot](images/qtimenote.png)
 Fig 3. This is the code for QtimeNote that takes the input from the user and stores users notes but also is what calls the qtime fuctions to compare or get references.
