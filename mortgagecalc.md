@@ -19,7 +19,8 @@ How to compile (if applicable) and run the project.
 
 ```bash
 No Commands Needed To Compile
-Just enter the values in the website GUI and press the calculate button for the program to work
+Just enter the values in the website GUI and 
+press the calculate button for the program to work
 ```
 
 ## UI Design
