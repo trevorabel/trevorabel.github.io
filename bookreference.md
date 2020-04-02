@@ -11,7 +11,7 @@ Book Reference
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The Book Reference program was a java program that I created in Object-Oriented Programming and its purpose is to take preset input like in demo. Using that information the demo then calls the funcitons in QtimeNote which uses the Qtime functions and can pull references to books, compare to books to see if they are the same reference, get user notes, get a date, and more.
 
 ## How to compiles / run the program
 
