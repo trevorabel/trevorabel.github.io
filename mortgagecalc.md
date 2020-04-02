@@ -37,7 +37,7 @@ The UI was design to be extremely simple so that it was easy to use and user fri
 - Fig 3. The CSS Code that gives the style of the text, text boxes, padding, and give the final output of estimated monthly payment the red text rather than the black standard text.
 
 ![screenshot](images/mortgagecalcoutput.png)
-- Fig 4. Example of how the program runs given the Loan ammount is 100,000, the borrowing time is 10 years, and the interest rate is 5%. This also demonstrates the fixed red text for the output as mentioned in the CSS screenshot above.
+- Fig 4. Example of how the program runs given the Loan ammount is 100,000 dollars, the borrowing time is 10 years, and the interest rate is 5%. This also demonstrates the fixed red text for the output as mentioned in the CSS screenshot above.
 
 ## 3. Additional Considerations
 
