@@ -11,7 +11,7 @@ Mortgage Calculator
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The Mortgage Calculator is a GUI based program that runs off of the codepen.io website. This program utilizes three coding languages HTML, CSS, and JS. The HTML provides the structure for the website based GUI telling it where each box, line of text, and button goes. The CSS provides the formatting of the text boxes, padding, text font, text location, and text color. The JS is the section of the code that handles all of the calculatiions with the given information to calculate the expected monthly mortgage payment based on the inital loan amount, the amount of time the loan is held for, and finally the interest rate of the loan.
 
 ## How to compiles / run the program
 
@@ -24,7 +24,7 @@ Just enter the values in the website GUI and press the calculate button for the 
 
 ## UI Design
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+The UI was design to be extremely simple so that it was easy to use and user friendly (figure 1). At its core the UI includes text boxes to input the three neccesary values. After entering the loan amout, the amount of time it is held for, and the interest rate all that you have to do is press estimate monthly payment. After pressing the estimate button it will proccess the information entered and plug it into the JS functions and return your estimated monthly payment in red text (figure 4).
 
 ![screenshot](images/mortgagecover.png)
 - Fig 1. The Blank Gui for the Mortgage Calculator that is avaliable on the codepen.io website link in the private GitHub repository.
