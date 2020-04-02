@@ -47,16 +47,16 @@ Programming Projects
 
 ---
 
-Presentations
+[Presentations](presentations.md)
 -------------
 
-### <a href="https://github.com/trevorabel/trevorabel.github.io/tree/master/powerpoints"> Cicada 3301 </a>
+### Cicada 3301
 
 - **Class:** CSCI 405 Introduction to Cyber Security
 - **Grade:** 100
 
 
-### <a href="https://github.com/trevorabel/trevorabel.github.io/tree/master/powerpoints"> Muxes </a>
+### Muxes
 
 - **Class:** CSCI 330 Computer Architecture
 - **Grade:** 100
