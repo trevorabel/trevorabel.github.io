@@ -7,7 +7,7 @@ Programming Projects
 *For access to my private project repositories, please [email me](mailto:taabel@csustudent.net?subject=GitHub%20Access) with the subject line, GitHub Access.
 
 ---
-### [Mortgage Calculator | CSCI 301](mortgagecalc)
+### [Mortgage Calculator | CSCI 301](mortgagecalc.md)
 
 ![Format for the GUI of the Mortgage Calculator that takes input and gives output](images/mortgagecover.png)
 
