@@ -12,12 +12,12 @@ Programming Projects
 ![Format for the GUI of the Mortgage Calculator that takes input and gives output](images/mortgagecover.png)
 
 ---
-### [Book Refrencing | CSCI 325](bookreference)
+### [Book Refrencing | CSCI 325](bookreference.md)
 
 ![Image of the Output with the specific Test Cases](images/bookreferencecover.png)
 
 ---
-### [Arithmetic Logic Unit | CSCI 330](project1)
+### [Arithmetic Logic Unit | CSCI 330](alu.md)
 
 ![Diagram of the Arithmetic Logic Unit with its inputs and output](images/alucover.png)
 
