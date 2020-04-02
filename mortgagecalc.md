@@ -6,7 +6,7 @@ Mortgage Calculator
 -   **Class:** CSCI 301 Survey of Scripting Languages
 -   **Grade:** 100
 -   **Language(s):** HTML, CSS, JS
--   **Source Code Repository:** [Private Github Repository (needs collaborator access)](https://github.com/trevorabel/csci301-mortgagecalc)  
+-   **Source Code Repository:** [Mortgage Calculator Private Github Repository (needs collaborator access)](https://github.com/trevorabel/csci301-mortgagecalc)  
     (Please [email me](mailto:taabel@csustudent.net?subject=GitHub%20Access) to request access.)
 
 ## Project description
