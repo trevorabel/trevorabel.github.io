@@ -31,7 +31,7 @@ Programming Projects
 Ethics Papers
 -------------
 
-### [Ad Blockers and the Effect of Ads On User Experience](Ethics%Papers/EthicsCSCI235.pdf)
+### [Ad Blockers and the Effect of Ads On User Experience](Ethics%20Papers/EthicsCSCI235.pdf)
 -   **Class:**  CSCI 235
 -   **Grade:**  98
 
