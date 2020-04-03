@@ -31,16 +31,16 @@ Programming Projects
 Ethics Papers
 -------------
 
-### [Ad Blockers and the Effect of Ads On User Experience](Ethics%Papers/EthicsCSCI235.pdf)
+### [Ad Blockers and the Effect of Ads On User Experience](Ethics Papers/EthicsCSCI235.pdf)
 -   **Class:**  CSCI 235
 -   **Grade:**  98
 
-### [Confidentiality of Information in Cyber Security](Ethics%Papers/EthicsCSCI325.pdf)
+### [Confidentiality of Information in Cyber Security](Ethics Papers/EthicsCSCI325.pdf)
 
 -   **Class:**  CSCI 325
 -   **Grade:**  83
 
-### [Fair Use with Source Code from GitHub, Stack Overflow, and Other Sites](Ethics%Papers/EthicsCSCI301.pdf)
+### [Fair Use with Source Code from GitHub, Stack Overflow, and Other Sites](Ethics Papers/EthicsCSCI301.pdf)
 
 -   **Class:**  CSCI 301
 -   **Grade:**  90
