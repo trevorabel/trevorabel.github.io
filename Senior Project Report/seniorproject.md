@@ -3,16 +3,20 @@
 Senior Project: Text Base File Encryptor
 ===============
 
+### [Code Screenshots Here]
+
+### [Demo Video Here]
+
 ### [Full Report Here](seniorprojectreport.md)
 
 Table of Contets
 ----------------
 1. ### [Statement of Purpose](sop.md)
-2. ### [Research & Background]()
-3. ### [Project Languages, Software, and Hardware]()
-4. ### [Project Requirements]()
-5. ### [Project Implementation Description & Explanation]()
-6. ### [Test Plan]()
+2. ### [Research & Background](researchBackground.md)
+3. ### [Project Languages, Software, and Hardware](languagesSoftwareHardware.md)
+4. ### [Project Requirements](projectRequirements.md)
+5. ### [Project Implementation Description & Explanation](implementationDesignExplanation.md)
+6. ### [Test Plan](testPlan.md)
 7. ### [Test Results]()
 8. ### [Challenges Overcome]()
 9. ### [Future Enhancements]()
