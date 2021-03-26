@@ -11,7 +11,7 @@ Senior Project: Text Base File Encryptor
 
 Table of Contets
 ----------------
-1. ### [Statement of Purpose](sop.md)
+1. ### [Statement of Purpose](Senior%20Project%20Report/sop.md)
 2. ### [Research & Background](researchBackground.md)
 3. ### [Project Languages, Software, and Hardware](languagesSoftwareHardware.md)
 4. ### [Project Requirements](projectRequirements.md)
