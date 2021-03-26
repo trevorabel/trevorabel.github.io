@@ -1,4 +1,6 @@
-### [Back to Table of Contents](seniorproject.md)
+### [Back to Portfolio](index.md)
+
+### [Back to Table of Contents](./)
 
 ### [View Full Report Here](Senior%20Project%20Report/fullReport.md)
 
