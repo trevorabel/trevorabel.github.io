@@ -22,9 +22,11 @@ V. Project Implementation Description & Explanation
 
 VI. Test Plan
 -------------
+*See attached excel document for the Test Plan for the development of the senior project.
 
 VII. Test Results
 -----------------
+
 
 VIII. Challenges Overcome
 -------------------------
