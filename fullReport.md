@@ -7,14 +7,6 @@ Senior Project Report
 
 I. Statement of Purpose
 -----------------------
-### [Back to Portfolio](index.md)
-
-### [Back to Table of Contents](seniorproject.md)
-
-### [View Full Report Here](fullReport.md)
-
-Statement of Purpose
-====================
 Encryption should bre a readily avaliable solution for all consumers not just businesses and government entities. However, consumer grade encryption is not readily available unless you are prepared to spend money to get it, in the digital age every person has a right to privacy and therefore should be entitled to ways to protect their privacy without having to spend money. In other words, encryption should be free and readily available to the general populous since we all have digital information or records that require protection of some sort. Additionally, we the consumers should be able to select the type of encryption that we want to use while some companies like Windows provide built in encryption for folders and files by checking a box it is set to one method. This is great because it provides a method of encryption for the general public to have access to without having to pay someone to do it. 
 
 However, there is a downfall to this method, it is that if someone cracks one version of the encryption method it will be asier for them to crack another and then a hundred more after that. This is the limitaion of having a singular publically free encryption method. Also, the free encryption programs while beneficial for the average user they present a major risk for those users beause free software does not always put sevruity first when it comes to customer information and their companies products.
