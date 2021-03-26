@@ -1,10 +1,14 @@
 Portfolio
 =========
 
+Senior Project: Text Based File Encryptor
+--------------------
+*For access to my Senior Project repository, please [email me](mailto:trevor.a.abel@gmail.com?subject=Senior%20Project%Repo%Access) with the subject line, Senior Project Repo Access.
+
 Programming Projects
 --------------------
 
-*For access to my private project repositories, please [email me](mailto:taabel@csustudent.net?subject=GitHub%20Access) with the subject line, GitHub Access.
+*For access to my private project repositories, please [email me](mailto:trevor.a.abel@gmail.com?subject=GitHub%20Access) with the subject line, GitHub Access.
 
 ---
 ### [Mortgage Calculator | CSCI 301](mortgagecalc.md)
