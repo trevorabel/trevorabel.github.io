@@ -7,7 +7,7 @@ Senior Project: Text Base File Encryptor
 
 ### [Demo Video Here]
 
-### [Full Report Here](seniorprojectreport.md)
+### [Full Report Here](fullReport.md)
 
 Table of Contets
 ----------------
