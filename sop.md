@@ -1,4 +1,4 @@
-### [Back to Portfolio](index.md)
+### [Back to Portfolio](./)
 
 ### [Back to Table of Contents](seniorproject.md)
 
