@@ -6,3 +6,9 @@
 
 Project Languages, Software, & Hardware
 ====================
+
+Project Language: Java
+
+Software: Netbeans 11.0 IDE
+
+Libraries and Packages:
