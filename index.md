@@ -1,9 +1,10 @@
 Portfolio
 =========
 
-Senior Project: Text Based File Encryptor
+Senior Project
 --------------------
 *For access to my Senior Project repository, please [email me](mailto:trevor.a.abel@gmail.com?subject=Senior%20Project%Repo%Access) with the subject line, Senior Project Repo Access.
+### [Text Based File Encryptor](seniorproject.md)
 
 Programming Projects
 --------------------
