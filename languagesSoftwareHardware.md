@@ -67,3 +67,8 @@ Libraries:
 Packages:
 ---------
 1. seniorProject
+
+Hardware:
+---------
+1. Laptop or Desktop
+
