@@ -23,7 +23,7 @@ My solution will attempt to mititgate this void left by the abscence of free cus
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://its.uchicago.edu/eud-policy/#:~:text=End-user%20device%3A%20Any%20desktop,is%20an%20end-user%20device.&text=If%20the%20device%20is%20networked,is%20subject%20to%20this%20policy.
   
-[5] Scarfone, K., & Murugiah, S., & Sexton, M. (). Guide to Storage Encryption Technologies for End User Devices.
+[5] Scarfone, K., & Murugiah, S., & Sexton, M. (2007, Nov.). Guide to Storage Encryption Technologies for End User Devices.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://www.hhs.gov/sites/default/files/nist800111.pdf
 
