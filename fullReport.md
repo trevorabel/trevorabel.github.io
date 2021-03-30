@@ -101,7 +101,7 @@ Packages:
 
 Hardware:
 ---------
-Laptop or Desktop
+1. Laptop or Desktop
 
 IV. Project Requirements
 ------------------------
