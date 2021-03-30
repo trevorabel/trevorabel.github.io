@@ -22,11 +22,14 @@ The benefits of this solution are that once the product is bug tested and operat
 Creation of a free customizable encryption program for the general populous would educate the populous on the importance of data security but also provide them a way to act on the new information and take steps to protect their data. Then for those who are already educated on the subject matter it would provide them a local method of encryption that they can customize to increase their security on their personal information files or system. The alternatives of paying for this service mean that you get support for it and you get it sooner than a local program that you need to run however, the idea of security of personal information should not be something that the general populous has to pay for especially when the things at risk of unsecurred personal information is their livelihood and their financial, emotional, and physical well being.
 
 [1] European Union Agency for Cybersecurity. (2018, Apr). The Value of Personal Online Data.
-  Retrieved from: https://www.enisa.europa.eu/publications/info-notes/the-value-of-personal-online-data
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://www.enisa.europa.eu/publications/info-notes/the-value-of-personal-online-data
 
 [2] Wallenstrom, Joel. (2021, Jan). Encryption Isn't The Problem; It's The Solution.
-  Retrieved from: https://www.forbes.com/sites/forbestechcouncil/2021/01/07/encryption-isnt-the-problem-its-the-solution/?sh=7fc71bcc1e89
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://www.forbes.com/sites/forbestechcouncil/2021/01/07/encryption-isnt-the-problem-its-the-solution/?sh=7fc71bcc1e89
   
 [3] Hughes, Matthew. (2019, Jan). Study Shows we're spending an insane amount of time online.
-  Retrieved from: https://thenextweb.com/tech/2019/01/31/study-shows-were-spending-an-insane-amount-of-time-online/
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://thenextweb.com/tech/2019/01/31/study-shows-were-spending-an-insane-amount-of-time-online/
   
