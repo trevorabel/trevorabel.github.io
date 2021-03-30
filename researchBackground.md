@@ -17,6 +17,8 @@ In a paper published in 2005 titled, "New Methods in Hard Disk Encryption" it is
 
 Sometimes full hard disk encryption is not even necessary or it is not feasible to make a backup and wipe the drive just to reformat it to an encrypted disk. In these instances where you just need one or more files encrypted but not everything else something like a program that encrypts files or file contents is much more beneficial to the average consumber. In this case my solution to this by creating a customizable encryption program would benefit this demographic of consumers.
 
+My solution will attempt to mititgate this void left by the abscence of free customizable end user file encryption. The first iteration of this project will include Caesarean encryption, DES encryption, and AES256 Encryption. These methods will all be customizable as the code for the methods will be available for the end user to examine and modify as they see fit. This will also be free so that it meets the demand for encryption that is not currently available outside of disk encryption. The purpose of this first iteration is to develop a encryption software for file contents with later versions focusing deeper into content encryption with more methods and full file encryption as well for the current and new methods.
+
 [4] The University of Chicago. (2020, Oct.). End-User Device Policy.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://its.uchicago.edu/eud-policy/#:~:text=End-user%20device%3A%20Any%20desktop,is%20an%20end-user%20device.&text=If%20the%20device%20is%20networked,is%20subject%20to%20this%20policy.
