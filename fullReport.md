@@ -113,6 +113,8 @@ VI. Test Plan
 -------------
 *See attached excel document for the Test Plan for the development of the senior project.
 
+### [Link to Test Plan](File%20Encryptor%20Test%20Plan%20-%20Trevor%20Abel.xlsx)
+
 VII. Test Results
 -----------------
 
