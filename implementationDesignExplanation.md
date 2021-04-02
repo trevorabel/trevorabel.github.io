@@ -59,11 +59,6 @@ Implementation Schedule
 - Jan 12, 2021
   - Begin testing and collecting usability and bug case information for project defense
 
-Key Metrics
------------
-Key Metrics for this project include the following: 
+Code Screenshots
+----------------
 
-1. Completed methods
-2. Number of setbacks
-3. Number of errors encountered
-4. Successful functionality implementations
