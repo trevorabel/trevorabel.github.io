@@ -26,13 +26,45 @@ For this project it is broken down into simple stages for the components that ar
 4. DES Decryption
 5. AES256 Encryption
 6. AES256 Decryption
-7. Functionality
+7. Functionality for recursion to repeat encryption/decryption
+8. Functionality for File input validation
+9. Functionality for saving a file directly to the desktop/specific folder
+10. Functionality for creating a new folder automatically for each new encryption and decryption
+11. UI for navigating through program
+12. BufferReader for reading the original file and converting to a string
+13. Creating FileNotFoundException for invalid file location call
 
 Implementation Schedule
 -----------------------
 
+- Feb. 28, 2020
+  - Implemented System Baseline
+    - Caesarean Encryption/Decryption
+    - File Path Searching
+    - Oupting encrypted or decrypted files to new files created files
+    - Input validation for file path searching
+    - BufferReader method to pass file contents into a string
+    - FileNotFounException
+
+- May 20, 2020
+  - Completed encryption or decryption choice at the begining of the program
+  - Implement recursion within the program to encrypt/decrypt multiple files in one program run
+  - Completed the rerouting of the program-created encrypted and decrypted files back to the desktop instead of the java project folder
+
+- Nov. 20, 2020
+  - Implemented DES encryption/decryption and tested for accuracy
+
+- Jan. 11, 2021
+  - Implemented AES256 and tested for accuracy
+
+- Jan 12, 2021
+  - Begin testing and collecting usability and bug case information for project defense
+
 Key Metrics
 -----------
+Key Metrics for this project include the following: 
 
-Contingency Plan
-----------------
+1. Completed methods
+2. Number of setbacks
+3. Number of errors encountered
+4. Sucessful functionality implementations.
