@@ -179,27 +179,34 @@ Fig. 25 Switch statement for the encryption methods for Caesarean, DES, and AES2
 In this switch statement case 1 or Caesarean takes up much less room because compared to DES and AES256 it is a much simpiler encryption method so it does not need as much to function. After each encryption is complete the program will recursively call back to the selection method to allow the user to make another encryption, do a decryption, or simply exit the program. Additionally, in the lower half of the screen shot it shows the warning statement that DES has limited  capabilities where it must decrypt after encrypting or it can not decrypt it at all.
 
 ![Fig. 26](images/main10.PNG)
-Fig. 26
+Fig. 26 DES encryption and DES decryption.
 
+The scanner at the beginig of the screenshot is simply to make the user acknowledge by pressing a key that they are using a limited encryption method. Then the desEncryption class is instantiated with a blank string so that the instance is made, then the instance is used with calls to the file path from earlier and the desFileCreator method for the generation of its output file. After it is done encrypting it will spit a message out saying that it is starting the decryption process at which point the user will have to enter the location of the newly encrypted text file.
 
 ![Fig. 27](images/main11.PNG)
-Fig. 27
+Fig. 27 File location validation for DES decryption.
 
+Just like for the initial file validation when they need to enter the encrypted file path there is also file path validation just to ensure that they get the right file and do not have to restart the program and begin the process over again. After the file path is validated it is passed into the same instance of DES so the key remains the same which is vital for decryption. Then it is decrypted and the desFileCreatorDec method is used to generate the new file and it calls back to the selection method.
 
 ![Fig. 28](images/main12.PNG)
-Fig. 28
+Fig. 28 Similar to DES the AES encryption and decryption starts with the warning.
 
+This warning is the same as the one for DES since encryption and decryption must be done at the same time. Then the AES class is instanced so it can be used for encryption and decryption. First, the genIV method is called so the IV will be ready for encryption then the user is prompted for both a phrase for their secret key and their salt.
 
 ![Fig. 29](images/main13.PNG)
-Fig. 29
+Fig. 29 AES256 encryption occurs then the decryption begins.
 
+After the user enters both phrases for encryption the encryption is done and the decryption begins. Just like with the DES decryption there is file path validation for the AES256 decryption file input.
 
 ![Fig. 30](images/main14.PNG)
-Fig. 30
+Fig. 30 AES256 file decryption with time delay to mimic phrase validation.
 
+Here the file is read in and there are cuts made to the file text so that it is readable for the decoding such as removing newline characters, \n, then it is requested for the user to enter the two phrases they used earlier. All of that information is passed to the decryption method to be decrypted, if the phrases do not match however there will be no decryption. After the decryption is complete it calls back to the selection method.
+
+*Note: Currently due to a base64 error loop the decryption for AES256 does not function 04/05/2021*
 
 ![Fig. 31](images/main15.PNG)
-Fig. 31
+Fig. 31 Decrypt method for Caesarean decryption.
 
 
 ![Fig. 32](images/main16.PNG)
