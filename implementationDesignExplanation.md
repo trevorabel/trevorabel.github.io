@@ -139,40 +139,44 @@ Fig. 16 AES256 genIV method to make the IV for encryption and decryption.
 For AES256 the IV must be 16-bytes long and this was done using the random number generator as opposed to making the user do it, for stronger security. First, instantiate a new 16-byte array and a new instance of the Random class. Using the Random class fill the IV array and return that array for use in encryption and decryption.
 
 ![Fig. 17](images/main01.PNG)
-Fig. 17
+Fig. 17 Main class and all the libraries needed for functionality.
 
 
 ![Fig. 18](images/main02.PNG)
-Fig. 18
+Fig. 18 The main class is driven by one line which references to the methods in the main class.
 
 
 ![Fig. 19](images/main03.PNG)
-Fig. 19
+Fig. 19 AES256 encryption testing, IV array testing, and key gen testing for AES256 encryption commented out.
 
 
 ![Fig. 20](images/main04.PNG)
-Fig. 20
+Fig. 20 Testing for a functional iterator based file creator for making new files and folders.
 
 
 ![Fig. 21](images/main05.PNG)
-Fig. 21
+Fig. 21 Start function that has blank lines and banners for displaying necessary text.
 
+The tweleve blank lines allow for all the comments at the start of a program in Netbeans to be moved out of view so its just the banners that contain basic project information such as the project name and my name.
 
 ![Fig. 22](images/main06.PNG)
-Fig. 22
+Fig. 22 Selection method where the user selects which encryption they wish to do.
 
+With the current state of the project there are two issues, one is that both DES and AES256 functionality on its current implementaion does not allow for multi-encryption without decryption like Caesar's implementation so it must encrypt and decrypt or it can not be decrypted. Secondly, AES256 decryption is currently bugged and stuck in a base64 error loop with no solution currently the AES256 can encrypt but not decrypt.
 
 ![Fig. 23](images/main07.PNG)
-Fig. 23
+Fig. 23 The top shows how the program operates where after a choice it calls another section or just exits and quits.
 
 
 ![Fig. 24](images/main08.PNG)
-Fig. 24
+Fig. 24 How the program looks for the file that the user wants to encrypt.
 
+In the end of Fig. 23 it shows the begining of the searching that the program does to find a file name that the user wants to encrypt. This is trapped in a while loop like the file creator so it will repeat until the proper conditions are met and in this case it is that the entered file path leads to an actual file. If it is misstyped or it is a file that does not exist it will prompt the user to try again until they get it right and the file name matches an existing file.
 
 ![Fig. 25](images/main09.PNG)
-Fig. 25
+Fig. 25 Switch statement for the encryption methods for Caesarean, DES, and AES256.
 
+In this switch statement case 1 or Caesarean takes up much less room because compared to DES and AES256 it is a much simpiler encryption method so it does not need as much to function. After each encryption is complete the program will recursively call back to the selection method to allow the user to make another encryption, do a decryption, or simply exit the program. Additionally, in the lower half of the screen shot it shows the warning statement that DES has limited  capabilities where it must decrypt after encrypting or it can not decrypt it at all.
 
 ![Fig. 26](images/main10.PNG)
 Fig. 26
