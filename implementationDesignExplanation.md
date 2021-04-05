@@ -68,7 +68,7 @@ Fig. 1 FileNotFound class that throws the Invalid File Location error when an im
 ![Fig. 2](images/cae01.PNG)
 Fig. 2 Caesarean Encryption global variables, constructor, passing file contents, and description methods.
 
-In this image it shows the constructor for the Caesarean Encryption class, the method that passes only the text into the class, and the beginning of the description of the cipher.
+This image shows the constructor for the Caesarean Encryption class, the method that passes only the text into the class, and the beginning of the description of the cipher.
 
 ![Fig. 3](images/cae02.PNG)
 Fig. 3 The description of the Caesarean encryption method and the beginning of the actual encryption.
@@ -77,13 +77,13 @@ Fig. 3 The description of the Caesarean encryption method and the beginning of t
 ![Fig. 4](images/cae03.PNG)
 Fig. 4 The rest of the Caesarean encryption method and the beginning of the decryption method.
 
-For the encryption, it shows how when the file contents and the selected shift key are passed through that the for loop works one character at a time when switching to the shifted ciphertext. In the if loop within the for loop it shows that the way that the characters are determined is by their ASCII values so values 97 through 122 represent the lower case characters while 65 through 90 represent the upper case characters. For both upper and lower case the process is similar so it takes character variable ch and pulls one character from the fileText string variable that has the whole contents of the file. Next, the selected character is run through another if loop that checks to see what the current value is so that it can acurately loop back to the start of the alphabet for the respective case of that character. After that the character is passed to the string variable called altered, this variable stores each character that has been changed until the orginal string has been completed changed by the shift key. Then the string is passed to be stored into a new file to mark the ned of the encryption.
+For the encryption, it shows how when the file contents and the selected shift key are passed through that the for loop works one character at a time when switching to the shifted ciphertext. In the if loop within the for loop it shows that the way that the characters are determined is by their ASCII values so values 97 through 122 represent the lower case characters while 65 through 90 represent the upper case characters. For both upper and lower case, the process is similar so it takes character variable ch and pulls one character from the file text string variable that has the whole contents of the file. Next, the selected character is run through another if loop that checks to see what the current value is so that it can accurately loop back to the start of the alphabet for the respective case of that character. After that, the character is passed to the string variable called altered, this variable stores each character that has been changed until the original string has been completed changed by the shift key. Then the string is passed to be stored into a new file to mark the end of the encryption.
 
 ![Fig. 5](images/cae04.PNG)
 Fig. 5 Decryption of Caesarean encrypted text and other methods to get and set information for the encryption.
 
-For the decryption of the Caesarean encryption method it is the same as described for Fig. 3 and Fig. 4 but instead of encrypting the contents it decrypts it. So everything is the same until it gets to modifying the character itself at which point it works backwards or the opposite way that the encryption shifting works. Similarly, the character variable ch for the currently shifted or to be shifted variable is stored after being shifted into the string variable called decCae. Then that string variable is returned to be stored into a new file to complete the decryption.
-The methods getShiftKey and setShiftKey both deal with the value of the shift key for the instance of the Caesarean encryption class. The getShiftKey is useful for if you forget the shift key and have not moved to another instance. While the setShiftKey is useful for adjusting the shift key if necessary for whatever reason.
+For the decryption of the Caesarean encryption method, it is the same as described for Fig. 3 and Fig. 4 but instead of encrypting the contents, it decrypts it. So everything is the same until it gets to modify the character itself at which point it works backward or the opposite way that the encryption shifting works. Similarly, the character variable ch for the currently shifted or to be shifted variable is stored after being shifted into the string variable called decay. Then that string variable is returned to be stored into a new file to complete the decryption.
+The methods getShiftKey and setShiftKey both deal with the value of the shift key for the instance of the Caesarean encryption class. The getShiftKey is useful if you forget the shift key and have not moved to another instance. While the setShiftKey is useful for adjusting the shift key if necessary for whatever reason.
 
 ![Fig. 6](images/des01.PNG)
 Fig.6 Shown in this image are all the libraries necessary for the function of the DES encryption class.
@@ -91,24 +91,24 @@ Fig.6 Shown in this image are all the libraries necessary for the function of th
 ![Fig. 7](images/des02.PNG)
 Fig. 7 Displays all the global variables for the DES encryption class.
 
-In Fig. 6 and Fig. 7 it shows all the libraries and all of the global variables for the functionality of the DES encryption class. Some of these variables like selectedEnc and padding are not necessary they just save space when typing out their respective parts during the coding of the actual encryption. These variables are just prematuraly declaring the type of encryption and the type of padding to use for the DES encryption and decryption.
+Fig. 6 and Fig. 7 show all the libraries and all of the global variables for the functionality of the DES encryption class. Some of these variables like selected and padding are not necessary they just save space when typing out their respective parts during the coding of the actual encryption. These variables are just prematurely declaring the type of encryption and the type of padding to use for the DES encryption and decryption.
 
 ![Fig. 8](images/des03.PNG)
 Fig. 8 DES Encryption description and the encryption method for DES.
 
-In the encryption of DES it shows that the variables passed in are types inputstream and outputstream. Additionally there is an exception that is thrown which is the IOExecption otherwise not throwing it will not allow the method to work. First the KeyGenerator library is used to prepare to generate the secret key. The globabl variable sKey is used to store the key generated by the KeyGenerator library instance. With the encryptCipher variable it is setting up for the type of padding being used for the DES encryption. Then the encryptCipher varable is used to generate the DES encryption to be used to encrypt the file text.
-Then an output stream is created so that the encryption can be written out to a new file. Then the methods writeData is called using the is, inputstream variable, which holds the contents of the file and os, the path of the new file.
+In the encryption of DES, it shows that the variables passed in are types input stream and output stream. Additionally, there is an exception that is thrown which is the IOExecption otherwise not throwing it will not allow the method to work. First, the KeyGenerator library is used to prepare to generate the secret key. The global variable sKey is used to store the key generated by the KeyGenerator library instance. With the encrypt cipher variable it is setting up for the type of padding being used for the DES encryption. Then the encrypt cipher variable is used to generate the DES encryption to be used to encrypt the file text.
+Then an output stream is created so that the encryption can be written out to a new file. Then the methods write data is called using the is, input stream variable, which holds the contents of the file and os, the path of the new file.
 
 ![Fig. 9](images/des04.PNG)
-Fig. 9 DES decryption and the writeData method for sending the encrypted text out.
+Fig. 9 DES decryption and the write data method for sending the encrypted text out.
 
-Similarly to Fig. 8 the decryption uses the same structure to generate with padding and then the variable decryptCipher to create the decryption to be used against the is variable that holds the file text. The writedata method is responsible for pushing the encrypted or decrypted text out to the new file to mark the end of the encryption or decryption. 
+Similar to Fig. 8 the decryption uses the same structure to generate with padding and then the variable decryptCipher to create the decryption to be used against them is a variable that holds the file text. The write data method is responsible for pushing the encrypted or decrypted text out to the new file to mark the end of the encryption or decryption. 
 
 ![Fig. 10](images/des05.PNG)
 Fig. 10 The desFileCreator method is used in the main class to create the new file for that encryption.
 
-First it catches everything into a while loop where the condition is !real which means not real, the real variable is a boolean variable that by default is set to false so once its set to true it exits. The purpose of this is the real variable is the only variable controlling the loop until a file name is available. Then it steps into the if loop where the major condition is if the the directory file exists if so then it enters a for loop where it goes up to 100 times per encryption or decryption, so up to a total of 200 times for the pairs of encryption and decryption.
-Then the file path is broken down into parts so that an iterator can add one and keep the same name with a different number to be able to create new linkable files. Once a new file name is found it spits back information that lets the user know that the new path has been put into a string to be used for creating the file. Then says sets real to true which means that it has found a real file name. Then using the new file path string a file name is attached which is DESEncrypted.txt, all DES encrypted files have this name but are separated by their folder number in the order they were made.
+First, it catches everything into a while loop where the condition is !real which means not real, the real variable is a boolean variable that by default is set to false so once it is set to true it exits. The purpose of this is the real variable is the only variable controlling the loop until a file name is available. Then it steps into the if loop where the major condition is if the directory file exists if so then it enters a for loop where it goes up to 100 times per encryption or decryption, so up to a total of 200 times for the pairs of encryption and decryption.
+Then the file path is broken down into parts so that an iterator can add one and keep the same name with a different number to be able to create new linkable files. Once a new file name is found it spits back information that lets the user know that the new path has been put into a string to be used for creating the file. Then says sets real to true which means that it has found a real file name. Then using the new file path string a file name is attached which is DESEncrypted.txt, all DES-encrypted files have this name but are separated by their folder number in the order they were made.
 
 ![Fig. 11](images/des06.PNG)
 Fig. 11 Contains the final steps of desFileCreator in which the new path is passed so the file is created at that path and shows the start of the decryption version of the same file creator.
@@ -117,21 +117,21 @@ Fig. 11 Contains the final steps of desFileCreator in which the new path is pass
 ![Fig. 12](images/des07.PNG)
 Fig. 12 Shows the end of the desFileCreatorDec which is the same as the encryption version just specialized specifically for decryption.
 
-The above desFileCreatorDec is exactly the same as the desFileCreator the only difference is instead of naming the files and folders DESEncrypted/DESEncryption# it is DESDecrypted/DESDecrypted#. Then using the new file path string a file name is attached which is DESDecrypted.txt, all DES decrypted files have this name but are separated by their folder number in the order they were made.
+The above desFileCreatorDec is the same as the desFileCreator the only difference is instead of naming the files and folders DESEncrypted/DESEncryption# it is DESDecrypted/DESDecrypted#. Then using the new file path string a file name is attached which is DESDecrypted.txt, all DES decrypted files have this name but are separated by their folder number in the order they were made.
 
 ![Fig. 13](images/aes01.PNG)
-Fig. 13 AES256 Encryption libraries necessary for functionality.
+Fig. 13 AES256 Encryption libraries that are necessary for functionality.
 
 
 ![Fig. 14](images/aes02.PNG)
 Fig. 14 AES encryption method returns as a string to the main class.
 
-In this screenshot it shows how the text is encrypted in AES256 format. First, the Cipher class is used to generate the AES padding instance to prepare for encryption. Then the cipher instance AESCipher is used to generate the AES256 encryption using the declared mode, secret key, and the IV. Finally the text is encrypted with base64 encoder and passed all the previous requirements for the AES256 encryption to occur.
+This screenshot shows how the text is encrypted in AES256 format. First, the Cipher class is used to generate the AES padding instance to prepare for encryption. Then the cipher instance AESCipher is used to generate the AES256 encryption using the declared mode, secret key, and the IV. Finally, the text is encrypted with a base64 encoder and passed all the previous requirements for the AES256 encryption to occur.
 
 ![Fig. 15](images/aes03.PNG)
 Fig. 15 AES decryption method and genSecretKey method.
 
-Here is how the secret key is generated for AES256 encryption. Using the SecretKeyFactory class to generate the padding instance so that the secret key can be generated. Then the KeySpec class is utilized to make the next step in the secret key by taking the user inputed word, salting, and declaring bounds, and the type of AES. Next the SecretKey class is used to generate the half of the secret key and finally the SecretKeySpec class is used to make the full key.
+Here is how the secret key is generated for AES256 encryption. Using the SecretKeyFactory class to generate the padding instance so that the secret key can be generated. Then the KeySpec class is utilized to make the next step in the secret key by taking the user inputted word, salting, and declaring bounds, and the type of AES. Next, the SecretKey class is used to generate half of the secret key, and finally, the SecretKeySpec class is used to make the full key.
 
 ![Fig. 16](images/aes04.PNG)
 Fig. 16 AES256 genIV method to make the IV for encryption and decryption.
@@ -143,26 +143,26 @@ Fig. 17 Main class and all the libraries needed for functionality.
 
 
 ![Fig. 18](images/main02.PNG)
-Fig. 18 The main class is driven by one line which references to the methods in the main class.
+Fig. 18 The main class is driven by one line which references the methods in the main class.
 
 
 ![Fig. 19](images/main03.PNG)
-Fig. 19 AES256 encryption testing, IV array testing, and key gen testing for AES256 encryption commented out.
+Fig. 19 AES256 encryption testing, IV array testing, and keygen testing for AES256 encryption commented out.
 
 
 ![Fig. 20](images/main04.PNG)
-Fig. 20 Testing for a functional iterator based file creator for making new files and folders.
+Fig. 20 Testing for a functional iterator-based file creator for making new files and folders.
 
 
 ![Fig. 21](images/main05.PNG)
 Fig. 21 Start function that has blank lines and banners for displaying necessary text.
 
-The tweleve blank lines allow for all the comments at the start of a program in Netbeans to be moved out of view so its just the banners that contain basic project information such as the project name and my name.
+The twelve blank lines allow for all the comments at the start of a program in Netbeans to be moved out of view so it is just the banners that contain basic project information such as the project name and my name.
 
 ![Fig. 22](images/main06.PNG)
 Fig. 22 Selection method where the user selects which encryption they wish to do.
 
-With the current state of the project there are two issues, one is that both DES and AES256 functionality on its current implementaion does not allow for multi-encryption without decryption like Caesar's implementation so it must encrypt and decrypt or it can not be decrypted. Secondly, AES256 decryption is currently bugged and stuck in a base64 error loop with no solution currently the AES256 can encrypt but not decrypt.
+With the current state of the project, there are two issues, one is that both DES and AES256 functionality on its current implementation does not allow for multi-encryption without decryption like Caesar's implementation so it must encrypt and decrypt or it can not be decrypted. Secondly, AES256 decryption is currently bugged and stuck in a base64 error loop with no solution currently the AES256 can encrypt but not decrypt.
 
 ![Fig. 23](images/main07.PNG)
 Fig. 23 The top shows how the program operates where after a choice it calls another section or just exits and quits.
@@ -171,17 +171,17 @@ Fig. 23 The top shows how the program operates where after a choice it calls ano
 ![Fig. 24](images/main08.PNG)
 Fig. 24 How the program looks for the file that the user wants to encrypt.
 
-In the end of Fig. 23 it shows the begining of the searching that the program does to find a file name that the user wants to encrypt. This is trapped in a while loop like the file creator so it will repeat until the proper conditions are met and in this case it is that the entered file path leads to an actual file. If it is misstyped or it is a file that does not exist it will prompt the user to try again until they get it right and the file name matches an existing file.
+At the end of Fig. 23, it shows the beginning of the searching that the program does to find a file name that the user wants to encrypt. This is trapped in a while loop like the file creator so it will repeat until the proper conditions are met and in this case, it is that the entered file path leads to an actual file. If it is miss-typed or it is a file that does not exist it will prompt the user to try again until they get it right and the file name matches an existing file.
 
 ![Fig. 25](images/main09.PNG)
 Fig. 25 Switch statement for the encryption methods for Caesarean, DES, and AES256.
 
-In this switch statement case 1 or Caesarean takes up much less room because compared to DES and AES256 it is a much simpiler encryption method so it does not need as much to function. After each encryption is complete the program will recursively call back to the selection method to allow the user to make another encryption, do a decryption, or simply exit the program. Additionally, in the lower half of the screen shot it shows the warning statement that DES has limited  capabilities where it must decrypt after encrypting or it can not decrypt it at all.
+In this switch statement case 1 or Caesarean takes up much less room because compared to DES and AES256 it is a much simpler encryption method so it does not need as much to function. After each encryption is complete the program will recursively call back to the selection method to allow the user to make another encryption, do decryption, or simply exit the program. Additionally, in the lower half of the screenshot, it shows the warning statement that DES has limited capabilities where it must decrypt after encrypting or it can not decrypt it at all.
 
 ![Fig. 26](images/main10.PNG)
 Fig. 26 DES encryption and DES decryption.
 
-The scanner at the beginig of the screenshot is simply to make the user acknowledge by pressing a key that they are using a limited encryption method. Then the desEncryption class is instantiated with a blank string so that the instance is made, then the instance is used with calls to the file path from earlier and the desFileCreator method for the generation of its output file. After it is done encrypting it will spit a message out saying that it is starting the decryption process at which point the user will have to enter the location of the newly encrypted text file.
+The scanner at the beginning of the screenshot is simply to make the user acknowledge by pressing a key that they are using a limited encryption method. Then the desEncryption class is instantiated with a blank string so that the instance is made, then the instance is used with calls to the file path from earlier and the desFileCreator method for the generation of its output file. After it is done encrypting it will spit a message out saying that it is starting the decryption process at which point the user will have to enter the location of the newly encrypted text file.
 
 ![Fig. 27](images/main11.PNG)
 Fig. 27 File location validation for DES decryption.
@@ -199,7 +199,7 @@ Fig. 29 AES256 encryption occurs then the decryption begins.
 After the user enters both phrases for encryption the encryption is done and the decryption begins. Just like with the DES decryption there is file path validation for the AES256 decryption file input.
 
 ![Fig. 30](images/main14.PNG)
-Fig. 30 AES256 file decryption with time delay to mimic phrase validation.
+Fig. 30 AES256 file decryption with a time delay to mimic phrase validation.
 
 Here the file is read in and there are cuts made to the file text so that it is readable for the decoding such as removing newline characters, \n, then it is requested for the user to enter the two phrases they used earlier. All of that information is passed to the decryption method to be decrypted, if the phrases do not match however there will be no decryption. After the decryption is complete it calls back to the selection method.
 
@@ -208,22 +208,22 @@ Here the file is read in and there are cuts made to the file text so that it is 
 ![Fig. 31](images/main15.PNG)
 Fig. 31 Decrypt method for Caesarean decryption.
 
-First the user must pass the file validation check before procceding to the decryption of Caesar encrypted files.
+First, the user must pass the file validation check before proceeding to the decryption of Caesar encrypted files.
 
 ![Fig. 32](images/main1601.PNG)
 Fig. 32 Here is the statement and the switch for selecting decryption methods.
 
-While DES and AES256 are listed as decryption methods currently they do not have functional stand alone decryption methods but are still listed since future enhancements will have this functionality. Once the user selects caesarean decryption the encrypted file contents are passed and the user is asked for their shift key to decrypt it.
+While DES and AES256 are listed as decryption methods currently they do not have a functional stand-alone decryption method but are still listed since future enhancements will have this functionality. Once the user selects cesarean decryption the encrypted file contents are passed and the user is asked for their shift key to decrypt it.
 
 ![Fig. 33](images/main17.PNG)
 Fig. 33 The attempt at DES decryption.
 
-This is the remnants of the attempt at making a separated DES decryption but since these are two different instances the secret key is different so it was commented out until a solution can be found. Same for AES256 since it also deals with instanced keys that are needed to decrypt.
+These are the remnants of the attempt at making a separated DES decryption but since these are two different instances the secret key is different so it was commented out until a solution can be found. Same for AES256 since it also deals with instanced keys that are needed to decrypt.
 
 ![Fig. 34](images/main18.PNG)
 Fig. 34 Caesarean encryption method.
 
-The method takes a string variable that contains the contents of the file and turns it into a caesar encrypted text with the user input for the shift key. Then it has its own file creator similar to the DES one so it has its own file creating system.
+The method takes a string variable that contains the contents of the file and turns it into a caesar encrypted text with the user input for the shift key. Then it has its file creator similar to the DES one so it has its file creating system.
 
 ![Fig. 35](images/main19.PNG)
 Fig. 35 Caesar encryption file creator and time stamp for file.
@@ -235,7 +235,7 @@ Fig. 36 Caesar decryption method.
 ![Fig. 37](images/main21.PNG)
 Fig. 37 Caesar decryption file creator and time stamp for file.
 
-Same as in Fig. 34 and Fig. 35 however, it decrypts then creates its own file to store the decryption in.
+Same as in Fig. 34 and Fig. 35 however, it decrypts then creates its file to store the decryption.
 
 ![Fig. 38](images/main22.PNG)
 Fig. 38 Main class DES encryption and decryption methods.
@@ -261,10 +261,9 @@ Similar to the DES and Caesarean decryption file creators but for the AES256 dec
 ![Fig. 43](images/main27.PNG)
 Fig. 43 Password verification method for AES256 decryption.
 
-This is a boolean method that checks to make sure that the entered key phrase and the entered salt phrase match so that decryption occurs when these are both matching as a method of verification that its the same person.
+This is a boolean method that checks to make sure that the entered key phrase and the entered salt phrase match so that decryption occurs when these are both matching as a method of verification that it's the same person.
 
 ![Fig. 44](images/main28.PNG)
 Fig. 44 Password verification (cont) and bufferedReader method.
 
-The password verification method shows what the check is for if one or both of the phraes is wrong. Then the buffered reader method is what is used to take the contents from the file path query and retrieve the text from inside the file and put it into a string so that it can be encrypted.
-
+The password verification method shows what the check is for if one or both of the phrases is wrong. Then the buffered reader method is what is used to take the contents from the file path query and retrieve the text from inside the file and put it into a string so that it can be encrypted.
