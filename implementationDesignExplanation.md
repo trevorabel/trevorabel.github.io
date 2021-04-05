@@ -107,6 +107,8 @@ Similarly to Fig. 8 the decryption uses the same structure to generate with padd
 ![Fig. 10](images/des05.PNG)
 Fig. 10 The desFileCreator method is used in the main class to create the new file for that encryption or decryption.
 
+First it catches everything into a while loop where the condition is !real which means not real, the real variable is a boolean variable that by default is set to false so once its set to true it exits. The purpose of this is the real variable is the only variable controlling the loop until a file name is available. Then it steps into the if loop where the major condition is if the the directory file exists if so then it enters a for loop where it goes up to 100 times per encryption or decryption, so up to a total of 200 times for the pairs of encryption and decryption.
+Then the file path is broken down into parts so that an iterator can add one and keep the same name with a different number to be able to create new linkable files. Once a new file name is found it spits back information that lets the user know that the new path has been put into a string to be used for creating the file. Then says sets real to true which means that it has found a real file name.
 
 ![Fig. 11](images/des06.PNG)
 Fig. 11
