@@ -105,18 +105,19 @@ Fig. 9
 Similarly to Fig. 8 the decryption uses the same structure to generate with padding and then the variable decryptCipher to create the decryption to be used against the is variable that holds the file text. The writedata method is responsible for pushing the encrypted or decrypted text out to the new file to mark the end of the encryption or decryption. 
 
 ![Fig. 10](images/des05.PNG)
-Fig. 10 The desFileCreator method is used in the main class to create the new file for that encryption or decryption.
+Fig. 10 The desFileCreator method is used in the main class to create the new file for that encryption.
 
 First it catches everything into a while loop where the condition is !real which means not real, the real variable is a boolean variable that by default is set to false so once its set to true it exits. The purpose of this is the real variable is the only variable controlling the loop until a file name is available. Then it steps into the if loop where the major condition is if the the directory file exists if so then it enters a for loop where it goes up to 100 times per encryption or decryption, so up to a total of 200 times for the pairs of encryption and decryption.
-Then the file path is broken down into parts so that an iterator can add one and keep the same name with a different number to be able to create new linkable files. Once a new file name is found it spits back information that lets the user know that the new path has been put into a string to be used for creating the file. Then says sets real to true which means that it has found a real file name.
+Then the file path is broken down into parts so that an iterator can add one and keep the same name with a different number to be able to create new linkable files. Once a new file name is found it spits back information that lets the user know that the new path has been put into a string to be used for creating the file. Then says sets real to true which means that it has found a real file name. Then using the new file path string a file name is attached which is DESEncrypted.txt, all DES encrypted files have this name but are separated by their folder number in the order they were made.
 
 ![Fig. 11](images/des06.PNG)
-Fig. 11
+Fig. 11 Contains the final steps of desFileCreator in which the new path is passed so the file is created at that path and shows the start of the decryption version of the same file creator.
 
 
 ![Fig. 12](images/des07.PNG)
-Fig. 12
+Fig. 12 Shows the end of the desFileCreatorDec which is the same as the encryption version just specialized specifically for decryption.
 
+The above desFileCreatorDec is exactly the same as the desFileCreator the only difference is instead of naming the files and folders DESEncrypted/DESEncryption# it is DESDecrypted/DESDecrypted#. Then using the new file path string a file name is attached which is DESDecrypted.txt, all DES decrypted files have this name but are separated by their folder number in the order they were made.
 
 ![Fig. 13](images/aes01.PNG)
 Fig. 13
