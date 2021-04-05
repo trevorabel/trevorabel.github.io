@@ -208,10 +208,12 @@ Here the file is read in and there are cuts made to the file text so that it is 
 ![Fig. 31](images/main15.PNG)
 Fig. 31 Decrypt method for Caesarean decryption.
 
+First the user must pass the file validation check before procceding to the decryption of Caesar encrypted files.
 
-![Fig. 32](images/main16.PNG)
-Fig. 32
+![Fig. 32](images/main1601.PNG)
+Fig. 32 Here is the statement and the switch for selecting decryption methods.
 
+While DES and 
 
 ![Fig. 33](images/main17.PNG)
 Fig. 33
