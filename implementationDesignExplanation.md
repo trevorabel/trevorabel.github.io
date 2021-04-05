@@ -86,79 +86,157 @@ For the decryption of the Caesarean encryption method it is the same as describe
 The methods getShiftKey and setShiftKey both deal with the value of the shift key for the instance of the Caesarean encryption class. The getShiftKey is useful for if you forget the shift key and have not moved to another instance. While the setShiftKey is useful for adjusting the shift key if necessary for whatever reason.
 
 ![Fig. 6](images/des01.PNG)
+Fig.6 
+
 
 ![Fig. 7](images/des02.PNG)
+Fig. 7
+
 
 ![Fig. 8](images/des03.PNG)
+Fig. 8
+
 
 ![Fig. 9](images/des04.PNG)
+Fig. 9
+
 
 ![Fig. 10](images/des05.PNG)
+Fig. 10
+
 
 ![Fig. 11](images/des06.PNG)
+Fig. 11
+
 
 ![Fig. 12](images/des07.PNG)
+Fig. 12
+
 
 ![Fig. 13](images/aes01.PNG)
+Fig. 13
+
 
 ![Fig. 14](images/aes02.PNG)
+Fig. 14
+
 
 ![Fig. 15](images/aes03.PNG)
+Fig. 15
+
 
 ![Fig. 16](images/aes04.PNG)
+Fig. 16
+
 
 ![Fig. 17](images/main01.PNG)
+Fig. 17
+
 
 ![Fig. 18](images/main02.PNG)
+Fig. 18
+
 
 ![Fig. 19](images/main03.PNG)
+Fig. 19
+
 
 ![Fig. 20](images/main04.PNG)
+Fig. 20
+
 
 ![Fig. 21](images/main05.PNG)
+Fig. 21
+
 
 ![Fig. 22](images/main06.PNG)
+Fig. 22
+
 
 ![Fig. 23](images/main07.PNG)
+Fig. 23
+
 
 ![Fig. 24](images/main08.PNG)
+Fig. 24
+
 
 ![Fig. 25](images/main09.PNG)
+Fig. 25
+
 
 ![Fig. 26](images/main10.PNG)
+Fig. 26
+
 
 ![Fig. 27](images/main11.PNG)
+Fig. 27
+
 
 ![Fig. 28](images/main12.PNG)
+Fig. 28
+
 
 ![Fig. 29](images/main13.PNG)
+Fig. 29
+
 
 ![Fig. 30](images/main14.PNG)
+Fig. 30
+
 
 ![Fig. 31](images/main15.PNG)
+Fig. 31
+
 
 ![Fig. 32](images/main16.PNG)
+Fig. 32
+
 
 ![Fig. 33](images/main17.PNG)
+Fig. 33
+
 
 ![Fig. 34](images/main18.PNG)
+Fig. 34
+
 
 ![Fig. 35](images/main19.PNG)
+Fig. 35
+
 
 ![Fig. 36](images/main20.PNG)
+Fig. 36
+
 
 ![Fig. 37](images/main21.PNG)
+Fig. 37
+
 
 ![Fig. 38](images/main22.PNG)
+Fig. 38
+
 
 ![Fig. 39](images/main23.PNG)
+Fig. 39
+
 
 ![Fig. 40](images/main24.PNG)
+Fig. 40
+
 
 ![Fig. 41](images/main25.PNG)
+Fig. 41
+
 
 ![Fig. 42](images/main26.PNG)
+Fig. 42
+
 
 ![Fig. 43](images/main27.PNG)
+Fig. 43
+
 
 ![Fig. 44](images/main28.PNG)
+Fig. 44
+
