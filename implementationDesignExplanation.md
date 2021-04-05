@@ -62,3 +62,5 @@ Implementation Schedule
 Code Screenshots
 ----------------
 
+(images/fileNotFound_01.png)
+Fig. 1 FileNotFound class that throws the Invalid File Location error when an improper path is entered while searching for a file.
