@@ -5,7 +5,7 @@ Senior Project: Text Base File Encryptor
 
 ### [Code Screenshots Here](https://github.com/trevorabel/trevorabel.github.io/blob/master/implementationDesignExplanation.md#code-screenshots)
 
-### [Demo Video Here]
+### [Presentation Video Here]
 
 ### [Full Report Here](fullReport.md)
 
