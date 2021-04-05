@@ -100,7 +100,7 @@ In the encryption of DES it shows that the variables passed in are types inputst
 Then an output stream is created so that the encryption can be written out to a new file. Then the methods writeData is called using the is, inputstream variable, which holds the contents of the file and os, the path of the new file.
 
 ![Fig. 9](images/des04.PNG)
-Fig. 9
+Fig. 9 DES decryption and the writeData method for sending the encrypted text out.
 
 Similarly to Fig. 8 the decryption uses the same structure to generate with padding and then the variable decryptCipher to create the decryption to be used against the is variable that holds the file text. The writedata method is responsible for pushing the encrypted or decrypted text out to the new file to mark the end of the encryption or decryption. 
 
@@ -120,20 +120,23 @@ Fig. 12 Shows the end of the desFileCreatorDec which is the same as the encrypti
 The above desFileCreatorDec is exactly the same as the desFileCreator the only difference is instead of naming the files and folders DESEncrypted/DESEncryption# it is DESDecrypted/DESDecrypted#. Then using the new file path string a file name is attached which is DESDecrypted.txt, all DES decrypted files have this name but are separated by their folder number in the order they were made.
 
 ![Fig. 13](images/aes01.PNG)
-Fig. 13
+Fig. 13 AES256 Encryption libraries necessary for functionality.
 
 
 ![Fig. 14](images/aes02.PNG)
-Fig. 14
+Fig. 14 AES encryption method returns as a string to the main class.
 
+In this screenshot it shows how the text is encrypted in AES256 format. First, the Cipher class is used to generate the AES padding instance to prepare for encryption. Then the cipher instance AESCipher is used to generate the AES256 encryption using the declared mode, secret key, and the IV. Finally the text is encrypted with base64 encoder and passed all the previous requirements for the AES256 encryption to occur.
 
 ![Fig. 15](images/aes03.PNG)
-Fig. 15
+Fig. 15 AES decryption method and genSecretKey method.
 
+Here is how the secret key is generated for AES256 encryption. Using the SecretKeyFactory class to generate the padding instance so that the secret key can be generated. Then the KeySpec class is utilized to make the next step in the secret key by taking the user inputed word, salting, and declaring bounds, and the type of AES. Next the SecretKey class is used to generate the half of the secret key and finally the SecretKeySpec class is used to make the full key.
 
 ![Fig. 16](images/aes04.PNG)
-Fig. 16
+Fig. 16 AES256 genIV method to make the IV for encryption and decryption.
 
+For AES256 the IV must be 16-bytes long and this was done using the random number generator as opposed to making the user do it, for stronger security. First, instantiate a new 16-byte array and a new instance of the Random class. Using the Random class fill the IV array and return that array for use in encryption and decryption.
 
 ![Fig. 17](images/main01.PNG)
 Fig. 17
