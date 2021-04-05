@@ -221,24 +221,26 @@ Fig. 33 The attempt at DES decryption.
 This is the remnants of the attempt at making a separated DES decryption but since these are two different instances the secret key is different so it was commented out until a solution can be found. Same for AES256 since it also deals with instanced keys that are needed to decrypt.
 
 ![Fig. 34](images/main18.PNG)
-Fig. 34
+Fig. 34 Caesarean encryption method.
 
+The method takes a string variable that contains the contents of the file and turns it into a caesar encrypted text with the user input for the shift key. Then it has its own file creator similar to the DES one so it has its own file creating system.
 
 ![Fig. 35](images/main19.PNG)
-Fig. 35
+Fig. 35 Caesar encryption file creator and time stamp for file.
 
 
 ![Fig. 36](images/main20.PNG)
-Fig. 36
-
+Fig. 36 Caesar decryption method.
 
 ![Fig. 37](images/main21.PNG)
-Fig. 37
+Fig. 37 Caesar decryption file creator and time stamp for file.
 
+Same as in Fig. 34 and Fig. 35 however, it decrypts then creates its own file to store the decryption in.
 
 ![Fig. 38](images/main22.PNG)
-Fig. 38
+Fig. 38 Main class DES encryption and decryption methods.
 
+This is the remainder of the first attempt at creating the DES encryption and decryption before realizing that both methods had used two different instances at which point the transition was made to encrypt and decrypt right after.
 
 ![Fig. 39](images/main23.PNG)
 Fig. 39
