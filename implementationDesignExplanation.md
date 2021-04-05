@@ -243,25 +243,28 @@ Fig. 38 Main class DES encryption and decryption methods.
 This is the remainder of the first attempt at creating the DES encryption and decryption before realizing that both methods had used two different instances at which point the transition was made to encrypt and decrypt right after.
 
 ![Fig. 39](images/main23.PNG)
-Fig. 39
-
+Fig. 39 AES encryption file creator.
 
 ![Fig. 40](images/main24.PNG)
-Fig. 40
+Fig. 40 AES encryption file creator (cont).
 
+Similar to the DES and Caesarean encryption file creators but for the AES256 encryption method.
 
 ![Fig. 41](images/main25.PNG)
-Fig. 41
-
+Fig. 41 AES decryption file creator.
 
 ![Fig. 42](images/main26.PNG)
-Fig. 42
+Fig. 42 AES decryption file creator (cont).
 
+Similar to the DES and Caesarean decryption file creators but for the AES256 decryption method.
 
 ![Fig. 43](images/main27.PNG)
-Fig. 43
+Fig. 43 Password verification method for AES256 decryption.
 
+This is a boolean method that checks to make sure that the entered key phrase and the entered salt phrase match so that decryption occurs when these are both matching as a method of verification that its the same person.
 
 ![Fig. 44](images/main28.PNG)
-Fig. 44
+Fig. 44 Password verification (cont) and bufferedReader method.
+
+The password verification method shows what the check is for if one or both of the phraes is wrong. Then the buffered reader method is what is used to take the contents from the file path query and retrieve the text from inside the file and put it into a string so that it can be encrypted.
 
