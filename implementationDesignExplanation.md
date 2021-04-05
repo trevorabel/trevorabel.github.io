@@ -213,11 +213,12 @@ First the user must pass the file validation check before procceding to the decr
 ![Fig. 32](images/main1601.PNG)
 Fig. 32 Here is the statement and the switch for selecting decryption methods.
 
-While DES and 
+While DES and AES256 are listed as decryption methods currently they do not have functional stand alone decryption methods but are still listed since future enhancements will have this functionality. Once the user selects caesarean decryption the encrypted file contents are passed and the user is asked for their shift key to decrypt it.
 
 ![Fig. 33](images/main17.PNG)
-Fig. 33
+Fig. 33 The attempt at DES decryption.
 
+This is the remnants of the attempt at making a separated DES decryption but since these are two different instances the secret key is different so it was commented out until a solution can be found. Same for AES256 since it also deals with instanced keys that are needed to decrypt.
 
 ![Fig. 34](images/main18.PNG)
 Fig. 34
