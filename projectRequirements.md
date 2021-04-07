@@ -9,4 +9,4 @@ Project Requirements
 *Check this document for the Project Requirements*
 
 
-[View Requirements Document Here](requirements.doc)
+[View Requirements Document Here](requirements.pdf)
