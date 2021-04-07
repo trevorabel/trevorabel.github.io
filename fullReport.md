@@ -106,6 +106,10 @@ Hardware:
 
 IV. Project Requirements
 ------------------------
+*Check this document for the Project Requirements*
+
+
+[View Requirements Document Here](requirements.pdf)
 
 V. Project Implementation Description & Explanation
 ---------------------------------------------------
