@@ -455,9 +455,6 @@ Future enhancements to this project include:
 4. Include functionality to have a pop-out window to select files as an alternative to entering the file path. 
 5. Overhaul into a JavaFx project to make a more interactive and appealing UI.
 
-* Number 4 would require a JavaFx upgrade potentially*
-
-
 X. Defense Presentation Slides
 ------------------------------
 
