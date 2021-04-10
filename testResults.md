@@ -28,6 +28,19 @@ Example output from AES256 encryption only:
 ![aes2561](images/aes2561.PNG)
 ![aes2562](images/aes2562.PNG)
 
+Key Element Results
+-------------------
+1. Element 1: Input validation for file path names
+2. Element 2: Input validation for method selection
+3. Element 3: Input validation for Caesarean cipher shift (only allows numbers 1 - 26)
+4. Element 4: Caesarean encryption cipher shift
+5. Element 5: Caesarean decryption reverse shift
+6. Element 6: BufferedReader method to pull text from the file
+7. Element 7: DES instanced encryption to encrypt file text
+8. Element 8: DES instanced decryption to decrypt the encrypted file text
+9. Element 9: AES 256 encryption generated IV and Secret Key for creating encryption
+10. Element 10: AES 256 decryption passing the ciphertext, IV, and Secret Key for decryption
+
 Questionnaire results
 ====================
 After the testing was complete I had each participant fill out an anonymous form on google forms asking about their programming background, their overall experience with the user interface, and asking how they viewed planned enhancements for the future version of the project.
