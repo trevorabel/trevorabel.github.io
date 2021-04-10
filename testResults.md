@@ -16,5 +16,7 @@ For each individual they did a Caesarean and a DES encryption and decryption sin
 
 ![test file text here](images/testText.PNG)
 
-Examples of output from Caesarean ciphers (encrypted text):
+Examples ouput from Caesar encryption and ecryption:
+
+![cae1 pair](images/cae1dec.PNG)
 
