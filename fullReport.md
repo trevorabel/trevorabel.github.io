@@ -586,7 +586,7 @@ X. Defense Presentation Slides
 ------------------------------
 Here is the link to my Senior Project Defense Presentation Slides
 
-[*Senior Project Defense Slides*](Senior%20Project%20Defense%20Slides.pptx)
+[*Senior Project Defense Slides*](Senior%20Project%20Defense%20Slides%20completed.pptx)
 
 XI. References
 --------------
