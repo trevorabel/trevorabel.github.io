@@ -8,4 +8,4 @@ Defense Presentation Slides
 ====================
 Here is the link to my Senior Project Defense Presentation Slides
 
-![defense slides]("images/Senior Project Defense Slides.pptx")
+![defense slides](Senior Project Defense Slides.pptx)
