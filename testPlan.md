@@ -23,14 +23,13 @@ For the testing of the project, it is important to hit the major components of t
 
 1. Input validation for file pathnames
 2. Input validation for method selection
-3. Input validation for Caesarean cipher shift (only allows numbers 1 - 26)
-4. Caesarean encryption cipher shift
-5. Caesarean decryption reverse shift
-6. BufferedReader method to pull text from the file
-7. DES instanced encryption to encrypt file text
-8. DES instanced decryption to decrypt the encrypted file text
-9. AES 256 encryption generated IV and Secret Key for creating encryption
-10. AES 256 decryption passing the ciphertext, IV, and Secret Key for decryption
+3. Caesarean encryption cipher shift
+4. Caesarean decryption reverse shift
+5. BufferedReader method to pull text from the file
+6. DES instanced encryption to encrypt file text
+7. DES instanced decryption to decrypt the encrypted file text
+8. AES 256 encryption generated IV and Secret Key for creating encryption
+9. AES 256 decryption passing the ciphertext, IV, and Secret Key for decryption
 
 The above elements are vital to the operation of the project, therefore, are the foci of the user testing phase to receive feedback and see the operation of these elements while being operated by someone with no background on the project.
 
@@ -43,18 +42,16 @@ How each element is to be tested
 - Element 2
   - Each run is dictated by a series of switch statements where the user will select a number 1 through 3 to perform various tasks such as selecting a method, starting encryption, starting decryption, or simply exiting the program. The input will be validated by operating through the series of switch statements using the appropriate numbers but also by using numbers outside of the 1-3 bounds to test to make the program require another input from the user.
 - Element 3
-  - Every Caesarean shift requires a shift key and for the cipher in this program, the shift key is determined by the user so that they may be able to decrypt the text that they are encrypting. Testing of the functionality of the shift key will be done by having the user encrypt the contents of the original file then having them decrypt it. Using all three files the original, the encrypted file, and the newly created decrypted file three will be examined to determine if the shift key worked then the contents of all three files will match and the decryption will match to the original file.
-- Element 4
   - This will be tested by taking the number that was selected by the user during decryption and run it against the original file to produce the proper or expected output of the shift to the cipher then it will be cross-examined against the encrypted text file.
-- Element 5
+- Element 4
   - To test this using the same shift key the encrypted file will be reversed using the shift key to produce a decrypted file that should match the original test file text.
-- Element 6
+- Element 5
   - This element will be tested automatically with the rest of the user's interaction with the program through the encryption and decryption processes. The way that this will be ensured to work is that the produced encrypted text file will have text in it because the buffered reader method will pull the text file and send it to be encrypted.
-- Element 7
+- Element 6
   - This will be tested by the user interacting with the program to complete the DES encryption by entering the file pathname so that DES can pull the file text and encrypt it and send it back to main to be output to a new file. The contents of that new file will be how this element is tested since the contents of that file are supposed to be encrypted with DES encryption formatting.
-- Element 8
+- Element 7
   - To ensure the functionality of this element the user will enter the file pathname of the DES-encrypted file and that file text contents will be passed to the decryption method so that it can be reverted to the original text and stored in a new decryption text file.
-- Element 9
+- Element 8
   - This element will be tested by the user's interaction with the program by having them use input so that they can generate the secret key for the encryption using AES256 format.
-- Element 10
+- Element 9
   - Through the verification of the original passphrases the identity of the individual decrypting will be identified and then the decryption proceeds and the success of the element will be when the text that is decrypted will match the original file text.
