@@ -33,9 +33,14 @@ Questionaire results
 ====================
 After the testing waas complete I had each participant fill out an anonymous form on google forms asking about their programming background, their overall experience with the user interface, and asking how they viewed planned enhancements for the future version of the project.
 
-Overall User Interface Interaction
+Programming Background
 ----------------------------------
 ![question1](images/question1.PNG)
+
+We can see here that the majority of the testers have little to no experince which is the main target demographic for this test since the audience for this project is the general populus.
+
+Overall Experience
+----------------------------------
 ![question2](images/question2.PNG)
 ![question3](images/question3.PNG)
 ![question4](images/question4.PNG)
@@ -45,3 +50,5 @@ Planned Future Enhancements Responses
 ![question5](images/question5.PNG)
 ![question6](images/question6.PNG)
 ![question7](images/question7.PNG)
+
+Planned future enhancements for this project include overhauling it to resolve the looped error for AES256 decryption. Overhaul the user interface into a javaFX program so that the elements of information and interaction are more pleasing to the eye and better for interacting with. Additionally, I surveyed whether or not in a finished state they would recommend this to someone looking for encryption. These results showed an overwhelming support for this project in a refined state with the described overhauls and there were no additional comments on the anonymous forms. I believe this is because what was mentioned in the planned future enhancements questions addressed any concerns or potential places of improvement that the participants would have commented on.
