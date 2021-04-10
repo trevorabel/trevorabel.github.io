@@ -511,9 +511,15 @@ Future enhancements to this project include:
 
 X. Defense Presentation Slides
 ------------------------------
+Here is the link to my Senior Project Defense Presentation Slides
+
+[*Senior Project Defense Slides*](Senior%20Project%20Defense%20Slides.pptx)
 
 XI. References
 --------------
+
+Research References
+-------------------
 
 [1] European Union Agency for Cybersecurity. (2018, Apr). The Value of Personal Online Data.
 
@@ -539,3 +545,41 @@ XI. References
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://clemens.endorphin.org/nmihde/nmihde-A4-ds.pdf
 
+Programming References
+----------------------
+
+[1] Rit Tech. (2013, Dec.) Convert String to Secret Key in Java.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://stackoverflow.com/questions/20824136/convert-string-to-secret-key-in-java
+
+[2] Landup, David. (2021.) Encoding and Decoding Base64 Strings in Java.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://stackabuse.com/encoding-and-decoding-base64-strings-in-java/
+
+[3] Domingus, Adrienne. (2020, Oct.) An Introduction to the Advanced Encryption Stadard (AES).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://medium.com/swlh/an-introduction-to-the-advanced-encryption-standard-aes-d7b72cc8de97
+
+[4] HowToDoInJava. (2021). Java AES 256 Encryption Decryption Example.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://howtodoinjava.com/java/java-security/aes-256-encryption-decryption/
+
+[5] Educative. (2021). How to generate random numbers in Java.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://www.educative.io/edpresso/how-to-generate-random-numbers-in-java
+
+[6] Oracle. (2021). Java Security Standard Algorithm Names.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://docs.oracle.com/javase/9/docs/specs/security/standard-names.html
+
+[7] Zuckmantel, Tilman. (2020, Nov.) Illegal base64 character "a" using java.util.Base64 from within Scala.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://stackoverflow.com/questions/64991122/illegal-base64-character-a-using-java-util-base64-from-within-scala
+
+[8] hkgulie. (2012, May). Input length must be multiple of 16 when decrypting with padded cipher.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://stackoverflow.com/questions/10494764/input-length-must-be-multiple-of-16-when-decrypting-with-padded-cipher
+
+[9] Prakash, Chandra. (2021, April). Convert String to Byte Array and reverse in Java.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieved from: https://www.baeldung.com/java-string-to-byte-array
