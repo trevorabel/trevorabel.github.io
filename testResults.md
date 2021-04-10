@@ -28,3 +28,14 @@ Example output from AES256 encryption only:
 
 ![aes2561](images/aes2561.PNG)
 ![aes2562](images/aes2562.PNG)
+
+Questionaire results
+====================
+After the testing waas complete I had each participant fill out an anonymous form on google forms asking about their programming background, their overall experience with the user interface, and asking how they viewed planned enhancements for the future version of the project.
+
+![question1](images/question1.PNG)
+![question2](images/question2.PNG)
+![question3](images/question3.PNG)
+![question4](images/question4.PNG)
+![question5](images/question5.PNG)
+![question6](images/question6.PNG)
