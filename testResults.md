@@ -14,7 +14,7 @@ For the testing of the project I selected 5 individuals to test the functionalit
 
 For each individual they did a Caesarean and a DES encryption and decryption since both methods were fully functional unlike AES256 decryption. The file used for these tests was test.txt that contains the following:
 
-![test file text here](images/test.txt)
+![test file text here](images/testText.PNG)
 
 Examples of output from Caesarean ciphers (encrypted text):
 
