@@ -12,7 +12,7 @@ Due to this issue within the program the program can operate fully as intended o
 
 For the testing of the project I selected 5 individuals to test the functionality and user interface of the project. These were the two main foci of the project this is because the level at which I designed the product for is the average consumer who knows nothing about encryption or programming. However, this project can also cater to those who are versed in either encryption and or programming. Since this project was designed with the average user in mind the 5 individuals for the testing had little to no experience in programming or encryption. This was to achieve results that could reflect the interactions of the average user to better interpret the current design's effectivness on accomplishing the main goal of being usable by the average user.
 
-For each individual they did a Caesarean and a DES encryption and decryption since both methods were fully functional unlike AES256 decryption. The file used for these tests was test.txt that contains the following:
+For each individual they did a Caesarean and a DES encryption and decryption since both methods were fully functional unlike AES256 decryption. The file used for all of these tests was test.txt that contains the following:
 
 ![test file text here](images/testText.PNG)
 
