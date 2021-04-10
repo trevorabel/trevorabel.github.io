@@ -23,3 +23,8 @@ Example ouput from Caesar encryption and decryption:
 Example output from DES encryption and decryption:
 
 ![des1 pair](images/des1pair.PNG)
+
+Example output from AES256 encryption only:
+
+![aes2561](images/aes2561.PNG)
+![aes2562](images/aes2562.PNG)
