@@ -31,15 +31,24 @@ Example output from AES256 encryption only:
 Key Element Results
 -------------------
 1. Element 1: Input validation for file path names
+  - This functioned as expected when given both an actual file path and a fake file path. When given a real file path it proceeds through to the encryption and decryption processes. When given a fake file path the program will return: "File Error: Invalid File Location. Please enter a valid file location." as it is supposed to and then it gives the user another chance to enter a proper file path name.
+
 2. Element 2: Input validation for method selection
-3. Element 3: Input validation for Caesarean cipher shift (only allows numbers 1 - 26)
-4. Element 4: Caesarean encryption cipher shift
-5. Element 5: Caesarean decryption reverse shift
-6. Element 6: BufferedReader method to pull text from the file
-7. Element 7: DES instanced encryption to encrypt file text
-8. Element 8: DES instanced decryption to decrypt the encrypted file text
-9. Element 9: AES 256 encryption generated IV and Secret Key for creating encryption
-10. Element 10: AES 256 decryption passing the ciphertext, IV, and Secret Key for decryption
+  - When initially designing this project this was skipped over but it was supposed to provide a method of validation of user input to prevent the program from being broken and potentially attacked using something like a buffer overflow attack to call a method that is not supposed to be accessed at that time. However, this is something that was missed when coding and will have to be added in the future enhancements to eliminate this potential vulnerability in this program.
+
+3. Element 3: Caesarean encryption cipher shift
+  -
+4. Element 4: Caesarean decryption reverse shift
+  -
+5. Element 5: BufferedReader method to pull text from the file
+  -
+6. Element 6: DES instanced encryption to encrypt file text
+  -
+7. Element 7: DES instanced decryption to decrypt the encrypted file text
+  -
+8. Element 8: AES 256 encryption generated IV and Secret Key for creating encryption
+  -
+9. Element 9: AES 256 decryption passing the ciphertext, IV, and Secret Key for decryption
 
 Questionnaire results
 ====================
