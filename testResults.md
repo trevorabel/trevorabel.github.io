@@ -30,8 +30,8 @@ Example output from AES256 encryption only:
 
 Key Element Results
 -------------------
-1. Element 1: Input validation for file path names
-  - This functioned as expected when given both an actual file path and a fake file path. When given a real file path it proceeds through to the encryption and decryption processes. When given a fake file path the program will return: "File Error: Invalid File Location. Please enter a valid file location." as it is supposed to and then it gives the user another chance to enter a proper file path name.
+1. Element 1: Input validation for file pathnames
+  - This functioned as expected when given both an actual file path and a fake file path. When given a real file path it proceeds through to the encryption and decryption processes. When given a fake file path the program will return: "File Error: Invalid File Location. Please enter a valid file location." as it is supposed to and then it gives the user another chance to enter a proper file pathname.
 
 2. Element 2: Input validation for method selection
   - When initially designing this project this was skipped over but it was supposed to provide a method of validation of user input to prevent the program from being broken and potentially attacked using something like a buffer overflow attack to call a method that is not supposed to be accessed at that time. However, this is something that was missed when coding and will have to be added in the future enhancements to eliminate this potential vulnerability in this program.
@@ -43,20 +43,19 @@ Key Element Results
   - The cipher reverse shift worked like it was supposed to so the text "whvw iloh" when reversed by 3 came back as "test file".
 
 5. Element 5: BufferedReader method to pull text from the file
-  - The bufferedReader method pulled the contents of the text file, "test file", and sent them to the Caesarean cipher and using the entered shift key of 3 it returned to a new file the string "whvw iloh". This outputted text shows that the reader method works as intended since it is pulling text from the files as it is supposed to for encryption and decryption.
+  - The bufferedReader method pulled the contents of the text file, "test file", and sent them to the Caesarean cipher, and using the entered shift key of 3 it returned to a new file the string "whvw iloh". This outputted text shows that the reader method works as intended since it is pulling text from the files as it is supposed to for encryption and decryption.
 
 6. Element 6: DES instanced encryption to encrypt file text
-  - Text pulled for DES encryption through the file path was encrypted and returned to main to be stored into a text file. Since this is DES and the function of DES is based off of instances each encryption is going to be different but when the text "test file" is run through the DES encryption two different times the returned text is "ƒÒÕnô‹AdÿS’&	O" and "¡$™ØK=løô¶£°" this shows that DES encryption works as intended.
+  - Text pulled for DES encryption through the file path was encrypted and returned to main to be stored into a text file. Since this is DES and the function of DES is based on instances each encryption is going to be different but when the text "test file" is run through the DES encryption two different times the returned text is "ƒÒÕnô‹AdÿS’&	O" and "¡$™ØK=løô¶£°" this shows that DES encryption works as intended.
 
 7. Element 7: DES instanced decryption to decrypt the encrypted file text
-  - Based off of the two examples above respectively they decrpt into "test file" and "test file" showing that the decryption works as it is supposed to. These two files show that since DES is instanced when encrypting they are different at encryption but when decrypting the are the same.
+  - Based on the two examples above respectively they decrypt into "test file" and "test file" showing that the decryption works as it is supposed to. These two files show that since DES is instanced when encrypting they are different at encryption but when decrypting they are the same.
 
 8. Element 8: AES 256 encryption generated IV and Secret Key for creating encryption
-  - The AES256 encryption element fucntion as intended after the secret key and IV were generated and sent to the method it resulted in the original text, "test file" being altered on two instances to "j/tBJP4S2ZEK7bPsBz+kog==" and "ehZn7yuQiPH1usC7kHM0bA==" showing that the encryption method works.
+  - The AES256 encryption element function as intended after the secret key and IV were generated and sent to the method it resulted in the original text, "test file" being altered on two instances to "j/tBJP4S2ZEK7bPsBz+kog==" and "ehZn7yuQiPH1usC7kHM0bA==" showing that the encryption method works.
 
 9. Element 9: AES 256 decryption passing the ciphertext, IV, and Secret Key for decryption
-  - This element did not fuction as intended because when attempting to decrypt the text that was pulled from the file a Base64 decoder error arose. After researching and resolving the first error rerunning the program lead to an illegal character error. Removing the illegal character resulted in another different illegal character issue and resolving that one resulted in a base64 length issue. However, the only way to fix the length issue is to include the just removed characters which still throws the illegal character error so it got stuck into a loop that I could not find a way out of at the time. 
-
+  - This element did not function as intended because when attempting to decrypt the text that was pulled from the file a Base64 decoder error arose. After researching and resolving the first error rerunning the program lead to an illegal character error. Removing the illegal character resulted in another different illegal character issue and resolving that one resulted in a base64 length issue. However, the only way to fix the length issue is to include the just removed characters which still throws the illegal character error so it got stuck into a loop that I could not find a way out of at the time. 
 
 Questionnaire results
 ====================
