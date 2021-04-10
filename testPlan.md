@@ -35,3 +35,9 @@ For the testing of the project, it is important to hit the major components of t
 The above elements are vital to the operation of the project, therefore, are the foci of the user testing phase to receive feedback and see the operation of these elements while being operated by someone with no background on the project.
 
 Input validation is one of the most important features of this project so that the project can not be derailed and broken since for this project security is the key this needs to be a primary concern as to not leave holes in the project to be exploited. The secondary concern is focused on the success of the actual encryption and decryption methods since outside of the validity of the inputs they are the core of the project so they need to be properly functional. These two categories make up the vast majority of what is critically important to the success of this project which is why they have been chosen as the features to be tested in the user trial phase.
+
+How each element is to be tested
+--------------------------------
+
+- Element 1
+  - Each run through the encryption and decryption process a proper file name is needed so it will be tested correctly through each use but alternatively an improper file pathname will be used to ensure that for improper files that it makes the user try again. In this case the term improper file pathname means that the file does not actually exist on the specified file pathname.
