@@ -39,3 +39,4 @@ After the testing waas complete I had each participant fill out an anonymous for
 ![question4](images/question4.PNG)
 ![question5](images/question5.PNG)
 ![question6](images/question6.PNG)
+![question7](images/question7.PNG)
