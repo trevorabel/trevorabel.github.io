@@ -6,7 +6,7 @@ Senior Project
 
 Link here for access to the presentation of my Senior Project.
 
-[senior project presentation](https://youtu.be/W2AUN4eaBvE)
+[Senior Project Presentation](https://youtu.be/W2AUN4eaBvE)
 
 ### [Text Based File Encryptor | CSCI 497 | CSCI 498 | CSCI 499](seniorproject.md)
 
