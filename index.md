@@ -3,7 +3,11 @@ Portfolio
 
 Senior Project
 --------------------
-*For access to my Senior Project repository, please [email me](mailto:trevor.a.abel@gmail.com?subject=Senior%20Project%Repo%Access) with the subject line, Senior Project Repo Access.
+
+Link here for access to the presentation of my Senior Project.
+
+[senior project presentation](https://youtu.be/W2AUN4eaBvE)
+
 ### [Text Based File Encryptor | CSCI 497 | CSCI 498 | CSCI 499](seniorproject.md)
 
 Programming Projects
