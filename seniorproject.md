@@ -9,6 +9,8 @@ Senior Project: Text Base File Encryptor
 
 ### [Full Report Here](fullReport.md)
 
+### [Repository Link Here](https://github.com/trevorabel/seniorproject)
+
 Table of Contets
 ----------------
 ### [I. Statement of Purpose](sop.md)
